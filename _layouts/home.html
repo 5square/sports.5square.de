@@ -34,9 +34,11 @@
 										<h2>What's New</h2>
 									</header>
 									<div class="content">
+										{% for post in site.posts %}
 										<div class="media">
-											<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt="" title="This right here is a caption." /></a>
+											<a href="{{ post.thumb }}"><img src="{{ post.thumb }}" alt="" title="{{ post.title }}" /></a>
 										</div>
+		                {% endfor %}
 										<div class="media">
 											<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt="" title="This right here is a caption." /></a>
 										</div>
