@@ -1,1 +1,3 @@
 baseurl: /sports.5square.de
+img_baseurl: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif
+img_thumb: /c_thumb,g_center,h_251,w_251

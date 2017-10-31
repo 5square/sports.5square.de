@@ -23,7 +23,7 @@
 										<h2>{{ page.title }}</h2>
 									</header>
 									<p>
-										Final Result: <strong>{{ page.result }}</strong><br />
+										<h3>Final Result: <strong>{{ page.result }}</strong></h3><br />
 										{{ page.date | date_to_string }} <br/>
 										{{ page.venue }} <br />
 										{{ page.city }}
@@ -35,21 +35,12 @@
 						</section>
 
 					<!-- Footer -->
-						<footer id="footer">
-							<div class="copyright">
-								&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
-							</div>
-						</footer>
+						{% include footer.html %}
 				</section>
 		</div>
 
 		<!-- Scripts -->
-			<script src="/sports.5square.de/assets/js/jquery.min.js"></script>
-			<script src="/sports.5square.de/assets/js/jquery.poptrox.min.js"></script>
-			<script src="/sports.5square.de/assets/js/jquery.scrolly.min.js"></script>
-			<script src="/sports.5square.de/assets/js/skel.min.js"></script>
-			<script src="/sports.5square.de/assets/js/util.js"></script>
-			<script src="/sports.5square.de/assets/js/main.js"></script>
+			{% include scripts.html %}
 
 	</body>
 </html>
