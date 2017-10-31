@@ -27,13 +27,13 @@
 
 					<!-- Gallery -->
 						<section id="galleries">
-
+*{{ site.baseurl }}*
 							<!-- Photo Galleries -->
 								<div class="gallery">
 									<div class="content">
 										{% for post in site.posts %}
 										<div>
-											<a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="" title="{{ post.title }}" /></a>
+											<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.thumb }}" alt="" title="{{ post.title }}" /></a>
 										</div>
 		                {% endfor %}
 									</div>
