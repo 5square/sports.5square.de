@@ -20,10 +20,14 @@
 							<!-- Photo Galleries -->
 								<div class="gallery">
 									<header class="special">
-										<h3>{{ page.date | date_to_string }}, - {{ page.venue }} ({{ page.city }})</h3>
 										<h2>{{ page.title }}</h2>
-										<h3>{{ page.result }}</h3>
 									</header>
+									<p>
+										Final Result: <strong>{{ page.result }}</strong><br />
+										{{ page.date | date_to_string }} <br/>
+										{{ page.venue }} <br />
+										{{ page.city }}
+									</p>
 									<div class="content">
 										{{ content }}
 									</div>
