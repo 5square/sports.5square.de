@@ -9,7 +9,7 @@ img_folder: "/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colo
 thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,h_251,w_251/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg
 ---
 <div class="media">
-  <a href="{{ site.img_baseurl }}{{ post.img_folder }}IMG_2734.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}yyy{{ post.img_folder }}zzzIMG_2734.jpg" alt="" title="" /></a>
+  <a href="{{ site.img_baseurl }}{{ post.img_folder }}IMG_2734.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}rrr{{ post.img_folder }}zzzIMG_2734.jpg" alt="" title="" /></a>
 </div>
 <div class="media">
   <a href="{{ site.img_baseurl }}{{ post.img_folder }}IMG_2735.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}{{ post.img_folder }}IMG_2735.jpg" alt="" title="This right here is a caption." /></a>
