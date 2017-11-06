@@ -5,10 +5,11 @@ tags: eishockey
 result: "7:0"
 city: "Las Vegas, Nevada"
 venue: "T-Mobile Arena"
+imgfolder: "/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/"
 thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,h_251,w_251/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg
 ---
 <div class="media">
-  <a href="{{ site.img_baseurl }}/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg" alt="" title="" /></a>
+  <a href="{{ site.img_baseurl }}{{ post.imagefolder }}IMG_2734.jpg"><img src="{{ site.img_baseurl }}{{ post.imagefolder }}IMG_2734.jpg" alt="" title="" /></a>
 </div>
 <div class="media">
   <a href="{{ site.img_baseurl }}/v1509485096/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2735.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}/v1509485096/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2735.jpg" alt="" title="This right here is a caption." /></a>
