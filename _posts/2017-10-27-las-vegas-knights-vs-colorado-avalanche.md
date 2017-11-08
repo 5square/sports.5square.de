@@ -8,8 +8,9 @@ venue: "T-Mobile Arena"
 img_folder: "/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/"
 thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,h_251,w_251/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg
 ---
+X
 <ul>
-{% for member in site.data.members %}
+{% for member in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
   <li>
     <a href="https://github.com/{{ member.github }}">
       {{ member.name }}
