@@ -20,9 +20,16 @@ A{{ post.img_folder }}A<br>
 {% endfor %}
 </ul>
 
+<hr>
+
+{% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
 <div class="media">
-  <a href="{{ site.img_baseurl }}{{ post.img_folder }}IMG_2734.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}rrr{{ post.img_folder }}zzzIMG_2734.jpg" alt="" title="" /></a>
+  <a href="{{ site.img_baseurl }}{{ post.img_folder }} {{ item.file }}"><img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ post.img_folder }} {{ item.file }}" alt="{{ item.title }}" title="{{ item.title }}" /></a>
 </div>
+{% endfor %}
+
+<hr>
+
 <div class="media">
   <a href="{{ site.img_baseurl }}{{ post.img_folder }}IMG_2735.jpg"><img src="{{ site.img_baseurl }}{{ site.img_thumb}}{{ post.img_folder }}IMG_2735.jpg" alt="" title="This right here is a caption." /></a>
 </div>
