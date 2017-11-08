@@ -1,8 +1,11 @@
-- img: IMG_2734.jpg
+- type: img
+  file: IMG_2734.jpg
   title: konklone
 
-- img: IMG_2735.jpg
+- type: img
+  file: IMG_2735.jpg
   title: parkr
 
-- img: IMG_2736.jpg
+- type: img
+  file: IMG_2736.jpg
   title: liufengyun
