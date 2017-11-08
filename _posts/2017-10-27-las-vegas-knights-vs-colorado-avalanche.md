@@ -24,7 +24,7 @@ A{{ post.img_folder }}A<br>
 
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
 <div class="media">
-  <a href="{{ site.img_baseurl }}{{ post.img_folder }} {{ item.file }}"><img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ post.img_folder }} {{ item.file }}" alt="{{ item.title }}" title="{{ item.title }}" /></a>
+  <a href="{{ site.img_baseurl }}{{ post.img_folder }}{{ item.file }}"><img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ post.img_folder }}{{ item.file }}" alt="{{ item.title }}" title="{{ item.title }}" /></a>
 </div>
 {% endfor %}
 
