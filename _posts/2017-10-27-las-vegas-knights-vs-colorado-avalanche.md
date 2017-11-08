@@ -9,9 +9,9 @@ img_folder: "/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colo
 thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,h_251,w_251/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg
 ---
 X{{ site.img_baseurl }}X<br>
-Y{{ page.img_folder }}Y<br>
 Z{{ site.img_thumb }}Z<br>
-A{{ post.img_folder }}A<br>
+Y{{ page.img_folder }}Y<br>
+
 <ul>
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
   <li>
@@ -23,8 +23,11 @@ A{{ post.img_folder }}A<br>
 <hr>
 
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
-<div class="media">
-  <a href="{{ site.img_baseurl }}{{ post.img_folder }}{{ item.file }}"><img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ post.img_folder }}{{ item.file }}" alt="{{ item.title }}" title="{{ item.title }}" /></a>
+<div class="media" style="border: 2px solid red;">
+  X{{ site.img_baseurl }}X<br>
+Z{{ site.img_thumb }}Z<br>
+Y{{ page.img_folder }}Y<br>
+  <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}"><img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" title="{{ item.title }}" /></a>
 </div>
 {% endfor %}
 
