@@ -10,7 +10,7 @@ thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center
 ---
 <div id="lightgallery">
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
-  <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}">
+  <a href="xyz{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}">
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />
   </a>
 {% endfor %}
