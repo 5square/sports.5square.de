@@ -19,8 +19,8 @@ thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,
   <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480">
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />
   </a>
-</div>
 {% endfor %}
+</div>
 
 <div class="media">
   <a href="http://res.cloudinary.com/dqzz6rb2q/video/upload/br_300,vc_h264/v1509492132/IMG_2744_i1xq4x.mov"><img src="http://res.cloudinary.com/dqzz6rb2q/video/upload/br_300,c_thumb,h_251,vc_h264,w_251/v1509492132/IMG_2744_i1xq4x.jpg" alt="" title="This right here is a caption." /></a>
