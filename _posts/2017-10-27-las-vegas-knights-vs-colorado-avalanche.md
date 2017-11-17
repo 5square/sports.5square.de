@@ -14,9 +14,9 @@ thumb: http://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,
 </div>
 {% endfor %}
 
-<div id="responsive-images">
+<div id="lightgallery">
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
-  <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}">
+  <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480">
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />
   </a>
 </div>
