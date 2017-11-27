@@ -66,7 +66,10 @@
         videojs: true
     });
 
-    $('#videos').lightGallery();
+    $('#videos'.lightGallery({
+        thumbnail:true
+    });
+      
     $('#videos-without-poster').lightGallery();
     $('#video-player-param').lightGallery({
         youtubePlayerParams: {
