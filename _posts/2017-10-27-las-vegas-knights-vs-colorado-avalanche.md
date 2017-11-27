@@ -14,7 +14,15 @@ thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />  
   </a>
 {% endfor %}
-  <a href="#" data-src="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_scale,w_800/v1511794477/sports.5square.de/IMG_2744.mp4">
+  <a href="#" data-poster="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_thumb,h_500,w_500/v1511794477/sports.5square.de/IMG_2744.jpg" data-html="#video1">
       <img src="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_thumb,h_251,w_251/v1511794477/sports.5square.de/IMG_2744.jpg" alt="{{ item.title }}" />  
   </a>
+</div>
+
+<!-- Hidden video div -->
+<div style="display:none;" id="video1">
+    <video class="lg-video-object lg-html5" controls preload="none">
+        <source src="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_scale,w_800/v1511794477/sports.5square.de/IMG_2744.mp4" type="video/mp4">
+         Your browser does not support HTML5 video.
+    </video>
 </div>
