@@ -14,4 +14,7 @@ thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />  
   </a>
 {% endfor %}
+  <a href="#" data-src="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_scale,w_800/v1511794477/sports.5square.de/IMG_2744.mp4">
+      <img src="http://res.cloudinary.com/dqzz6rb2q/video/upload/c_thumb,h_251,w_251/v1511794477/sports.5square.de/IMG_2744.jpg" alt="{{ item.title }}" />  
+  </a>
 </div>
