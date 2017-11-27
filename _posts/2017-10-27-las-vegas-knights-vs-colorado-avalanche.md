@@ -13,7 +13,7 @@ thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center
   <a href="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}">
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />
       <ul>
-        <li>site.img_baseurl{{ site.img_baseurl }}</li>
+        <li>site.img_baseurl {{ site.img_baseurl }}</li>
          <li>page.img_folder {{ page.img_folder }}</li>
         <li>item.file {{ item.file }}</li>
     </ul>
