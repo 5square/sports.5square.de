@@ -8,7 +8,7 @@ venue: "T-Mobile Arena"
 img_folder: "/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/"
 thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center,h_251,w_251/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg
 ---
-<div id="lightgallery">
+<div id="lightgallery2">
 {% for item in site.data.2017-10-27-las-vegas-knights-vs-colorado-avalanche %}
   <a href="https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/v1509484708/sports.5square.de/2017-10-27-las-vegas-knights-vs-colorado-avalanche/IMG_2734.jpg" title="{{ site.img_baseurl }}{{ page.img_folder }}{{ item.file }}">
       <img src="{{ site.img_baseurl }}{{ site.img_thumb }}{{ page.img_folder }}{{ item.file }}" alt="{{ item.title }}" />
@@ -21,3 +21,13 @@ thumb: https://res.cloudinary.com/dqzz6rb2q/image/upload/a_exif/c_thumb,g_center
     </ul>
 {% endfor %}
 </div>
+
+<ul id="lightgallery">
+  <li data-src="img/img1.jpg">
+      <img src="img/thumb1.jpg" />
+  </li>
+  <li data-src="img/img2.jpg">
+      <img src="img/thumb2.jpg" />
+  </li>
+  ...
+</ul>
