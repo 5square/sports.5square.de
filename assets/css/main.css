@@ -1612,3 +1612,8 @@
 			}
 
 		}
+
+/* Custom */
+div#lightgallery a {
+    text-decoration: none;
+}
